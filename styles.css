@@ -1,0 +1,135 @@
+/*
+Palette: https://coolors.co/palette/1d3557-107393-38a796-e3d9d1-eae9ef
+Dark blue: #1d3557
+Light blue: #107393
+Aqua: #38a796
+Cream: #e3d9d1
+Light gray: #eae9ef
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#hero {
+    background-image: url("images/costa-rica.jpg");
+    background-size: cover;
+    padding: 250px 0 250px 0;
+}
+
+.hero-text {
+    color: #eae9ef;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+    width: max-content;
+}
+
+#hero h1 {
+    font-size: 48px;
+    background-color: #107393;
+    padding: 5px 50px;
+}
+
+#hero h2 {
+    font-size: 32px;
+    background-color: #38a796;
+    padding: 10px 100px;
+}
+
+.activities-wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e3d9d1;
+    padding: 80px 20px;
+}
+
+.activity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 200px;
+    color: #1d3557;
+}
+
+.activity-container h2 {
+    margin: 0;
+}
+
+.activity-container p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.activity-container img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+
+.guide-wrapper {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eae9ef;
+}
+
+.guide-container {
+    display: flex;
+    align-items: center;
+    background-color: #38a796;
+    color: #eae9ef;
+    width: 450px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 5%;
+    gap: 10px;
+    border-bottom: 6px solid #107393;
+}
+
+.guide-container img {
+    width: 450px;
+    height: 280px;
+    border-radius: 2%;
+}
+
+.guide-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.guide-text h2 {
+    margin: 0;
+}
+
+.guide-text p {
+    margin: 0;
+}
+
+#footer{
+    height: 72px;
+    background-color: #1d3557;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #eae9ef;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: #eae9ef;
+}
+
+a:hover{
+ color: red;
+}
